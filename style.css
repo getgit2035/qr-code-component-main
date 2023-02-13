@@ -12,11 +12,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     margin: 0;
     font-family: 'Rubik', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 img {
@@ -40,7 +40,7 @@ img {
 h3 {
     color: hsl(218, 44%, 22%);
     margin: 30px 30px 15px 30px ;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
 }
 
